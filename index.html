@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Study Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1><i class="fa-solid fa-graduation-cap"></i> Shivam Study Hub</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#computer">Computer Basics</a>
+
+<a href="#notes">Study Notes</a>
+
+<a href="#todo">To-Do</a>
+
+<button id="themeBtn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<h2>Welcome Shivam 👋</h2>
+
+<p>
+Your personal study website for school project.
+Save notes, learn computer basics and plan your study.
+</p>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<i class="fa-solid fa-book"></i>
+<h3>Study Notes</h3>
+<p>Write and save your important notes.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-desktop"></i>
+<h3>Computer Basics</h3>
+<p>Learn hardware, software and internet.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-list-check"></i>
+<h3>Daily Planner</h3>
+<p>Complete your daily tasks.</p>
+</div>
+
+</section>
+
+<section id="computer">
+
+<h2>Computer Basics</h2>
+
+<div class="topics">
+
+<div class="topic">
+
+<h3>Hardware</h3>
+
+<p>
+Hardware means physical parts of computer like
+Keyboard, Mouse, CPU, Monitor and Printer.
+</p>
+
+</div>
+
+<div class="topic">
+
+<h3>Software</h3>
+
+<p>
+Software is a set of programs.
+Example:
+Windows,
+MS Word,
+Chrome,
+Photoshop.
+</p>
+
+</div>
+
+<div class="topic">
+
+<h3>Input Devices</h3>
+
+<ul>
+<li>Keyboard</li>
+<li>Mouse</li>
+<li>Scanner</li>
+<li>Microphone</li>
+</ul>
+
+</div>
+
+<div class="topic">
+
+<h3>Output Devices</h3>
+
+<ul>
+<li>Monitor</li>
+<li>Printer</li>
+<li>Speaker</li>
+<li>Projector</li>
+</ul>
+
+</div>
+
+<div class="topic">
+
+<h3>MS Office</h3>
+
+<ul>
+<li>MS Word</li>
+<li>MS Excel</li>
+<li>MS PowerPoint</li>
+</ul>
+
+</div>
+
+<div class="topic">
+
+<h3>Internet</h3>
+
+<p>
+Internet is a global network connecting millions of computers.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="notes">
+
+<h2>Study Notes</h2>
+
+<input
+type="text"
+id="noteTitle"
+placeholder="Title">
+
+<textarea
+id="noteText"
+placeholder="Write your notes here..."></textarea>
+
+<button id="saveBtn">
+Save Note
+</button>
+
+<input
+type="text"
+id="search"
+placeholder="Search notes...">
+
+<div id="notesContainer"></div>
+
+</section>
+
+<section id="todo">
+
+<h2>Study Planner</h2>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter today's task">
+
+<button id="addTask">
+Add Task
+</button>
+
+<ul id="taskList"></ul>
+
+</section>
+
+<footer>
+
+<p>
+Made with ❤️ by Shivam
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
